@@ -1,0 +1,27 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCIE = [
+  {
+    date: "Actualmente...",
+    title: "Analista de sistemas - CooprofesoresUn",
+    description:
+      "Me especializo en el desarrollo de aplicaciones web, destacando en la creación de soluciones innovadoras. Mi experiencia abarca el soporte multimedial de primer y segundo nivel, con enfoque en la administración y gestión de la mesa de servicio. Sin embargo, donde realmente brillo es en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. Mi experiencia incluye el despliegue eficiente mediante contenedores de Docker.",    
+  },
+  {
+    date: "Junio 2022",
+    title: "Supervisor logistico y comercial - Inversiones Lejis S.A.S",
+    description:
+      "Además de mis habilidades en el ámbito de soporte, también contribuyo al desarrollo de aplicaciones web utilizando herramientas como HTML, CSS, JS NodeJS. Me destaco en el despliegue a través de contenedores de Docker.",
+  },
+]
+---
+
+<ol class="relative border-s border-gray-200 dark:border-gray-700">
+  {
+    EXPERIENCIE.map((experiencie) => (
+      <li class="mb-10 ms-4">
+        <ExperienceItem {...experiencie} />
+      </li>
+    ))
+  }  
+</ol>
