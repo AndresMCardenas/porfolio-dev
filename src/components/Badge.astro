@@ -1,6 +1,31 @@
 <span
-  class="bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300"
+  class="items-center bg-slate-800 text-white-400 text-xl font-medium me-2 px-2.5 py-0.5 rounded-t-full dark:bg-blue-900 dark:text-blue-300 text-center"
   
 >
+<img 
+    class="rounded-full size-18"
+    src="https://media.licdn.com/dms/image/D4E03AQHkoeFQgnfxnA/profile-displayphoto-shrink_200_200/0/1705275108686?e=2147483647&v=beta&t=ZPCtmmCOmWsl0mlNk9ZiYO9FukYyGJ-dPj_tUSePDYM" 
+    alt="andres foto"/>
   <slot/>
 </span>
+
+<!-- <span
+  class="items-center bg-blue-100 text-blue-800 text-xl font-medium me-2 px-2.5 py-0.5 rounded-t-full dark:bg-blue-900 dark:text-blue-300 text-center relative"
+>
+  <style>
+    .fade-bottom::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 90%; /* Ajusta este valor para cambiar la altura del efecto de difuminado */
+      background: linear-gradient(to top, white, transparent);
+    }
+  </style>
+  <img 
+    class="rounded-full size-18"
+    src="https://media.licdn.com/dms/image/D4E03AQHkoeFQgnfxnA/profile-displayphoto-shrink_200_200/0/1705275108686?e=2147483647&v=beta&t=ZPCtmmCOmWsl0mlNk9ZiYO9FukYyGJ-dPj_tUSePDYM" 
+    alt="andres foto"/>
+  <slot/>
+</span> -->
