@@ -1,0 +1,29 @@
+---
+import Github from "./icons/Github.astro";
+
+const PROJECTS =[
+  {
+    title: 'Project 1',
+    desecription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.',
+    Link:"#",
+    Github:"#",
+    image: 'https://cooprofesoresun.coop/wp-content/uploads/2023/07/Logotop.png.webp',
+    tags: ['HTML', 'CSS', 'JavaScript']
+  }
+]
+---
+
+{
+  PROJECTS.map(({title, desecription, tags, image}) => (
+    <article>
+      <h3>{title}</h3>
+      <p>{desecription}</p>
+      <ul>
+        {tags.map((tag) => (
+          <li>{tag}</li>
+        ))}
+      </ul>
+      <img src={image} alt={`Captura de pantalla del proyecto ${image}`}>
+    </article>
+  ))
+}

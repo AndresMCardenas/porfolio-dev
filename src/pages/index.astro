@@ -8,6 +8,8 @@ import MailIconIcon from '../components/icons/Mail.astro';
 import Experience from '../components/Experience.astro';
 import SectionContainer from '../components/SectionContainer.astro';
 import Brifcase from '../components/icons/Brifcase.astro';
+import Proyectos from '../components/Proyectos.astro';
+import Proyect from '../components/icons/Proyect.astro';
 
 ---
 
@@ -15,38 +17,38 @@ import Brifcase from '../components/icons/Brifcase.astro';
 	title="Porfolio de Andres Cardenas - Desarrollador y Programador"
 	description="Conoce mi porfolio y proyectos de desarrollo web y programación, conoce mi experiencia y habilidades."
 >
-	<main >
-		<SectionContainer class="py-44 pb-20">
-			<h1 class="text-white text-5xl flex font-bold flex-row gap-x-4 pb-10">
-				Hey soy Andrés Cárdenas 
+	<main class="px-4" >
+		<SectionContainer class="py-44 pb-24">
+			<h1 class="text-white text-3xl md:text-4xl lg:text-5xl flex font-bold flex-row gap-x-4 pb-6 lg:pb-10">
+				Hola, soy Andrés Mauricio Cárdenas 
 				<a 
 					href="https://www.linkedin.com/in/andres-mauricio-cardenas-sachez-96102725/"
 					target="_blank"
 					rel="noopener" 
 					class="flex justify-center items-center rounded-full"><Badge>Conoceme</Badge></a>
 			</h1>
-			<h2 class="text-2xl text-wrap">
+			<h2 class="text-xl lg:text-2xl text-wrap max-w-[700px]">
 				<span>Estoy aprendiendo Astro. </span> <span class="text-yellow-200/90 opacity-80" > Desarrollador Web y Analista de sistemas.</span> De Bogota Colombia
 			</h2>
 
-			<nav class="flex gap-x-2 mt-8">
+			<nav class="flex gap-4 mt-8 flex-wrap">
 				<SocialPill href="https://www.linkedin.com/in/andres-mauricio-cardenas-sachez-96102725/">
 					<LinkedInIcon class="size-6" />
 					LinkedIn
 				</SocialPill>
 
 				<SocialPill href="https://github.com/AndresMCardenas">
-					<GitHubIcon class="size-6" />
+					<GitHubIcon class="size-4 md:size-6" />
 					GitHub
 				</SocialPill>
 
 				<SocialPill href="mailto:andrescar18@gmail.com">
-					<MailIconIcon class="size-6" />
+					<MailIconIcon class="size-4 md:size-6" />
 					andrescar18@gmail.com
 				</SocialPill>
 
 				<SocialPill href="https://drive.google.com/file/d/10pvVLb1gbpMetZjijYMwW3g3GhijVD83/view?usp=drive_link">
-					<MailIconIcon class="size-6" />
+					<MailIconIcon class="size-4 md:size-6" />
 					Descargar CV
 				</SocialPill>
 
@@ -54,13 +56,23 @@ import Brifcase from '../components/icons/Brifcase.astro';
 			</nav>
 		</SectionContainer> 
 
-		<SectionContainer>
-			<h2 class="text-2xl font-semibold mb-6 flex gap-x-3 items-center">
+		<SectionContainer id="experiencia" >
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
 				<Brifcase class="size-7"/>
 				Experiencia laboral
 			</h2> 
 			<Experience />
 		</SectionContainer>
+
+		<SectionContainer id="proyectos" >
+			<h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+				<Proyect class="size-7"/>
+				Proyectos
+			</h2> 
+			<Proyectos />
+		</SectionContainer>
+
+
 	</main>
 </Layout>
 
