@@ -1,14 +1,53 @@
 ---
 import Github from "./icons/Github.astro";
+import Html from "./icons/Html.astro";
+import Docker from "./icons/Docker.astro";
+import React from "./icons/React.astro";
+import Tailwind from "./icons/Tailwind.astro";
+import Typescript from "./icons/Typescript.astro";
+//import Node from "./icons/Node.astro";
+import Expres from "./icons/ExpresJS.astro";
+import JavaScrip from "./icons/JavaScrip.astro";
+import Css from "./icons/Css.astro";
+
+
+const TAGS = {
+  HTML:{
+    name: 'HTML',
+    class: 'bg-black text-white',
+    icon: Html,
+  },
+  CSS:{
+    name: 'CSS',
+    class: 'bg-blue-500 text-white',
+    icon: Css,
+  },
+  JavaScrip:{
+    name: 'JavaScrip',
+    class: 'bg-yellow-500 text-white',
+    icon: JavaScrip,
+  },
+  Expres:{
+    name: 'Expres',
+    class: 'bg-green-500 text-white',
+    icon: Expres,
+  },
+  Docker:{
+    name: 'Docker',
+    class: 'bg-blue-500 text-white',
+    icon: Docker,
+  },
+}
+
+
 
 const PROJECTS =[
   {
-    title: 'Project 1',
-    desecription: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.',
-    Link:"#",
-    Github:"#",
-    image: 'https://cooprofesoresun.coop/wp-content/uploads/2023/07/Logotop.png.webp',
-    tags: ['HTML', 'CSS', 'JavaScript']
+    title: 'Generador de Conecutivos',
+    desecription: ' Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker',
+    Github:"https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
+    image: '/public/images/geneal.webp',
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.JavaScrip, TAGS.Expres,TAGS.Docker]
   }
 ]
 ---
@@ -16,14 +55,22 @@ const PROJECTS =[
 {
   PROJECTS.map(({title, desecription, tags, image}) => (
     <article>
-      <h3>{title}</h3>
-      <p>{desecription}</p>
-      <ul>
+      <h3 class="text-2xl font-semibold text-yellow-200/80 mb-2">{title}</h3>
+      <p class="text-lg mb-4 text-pretty  ">{desecription}</p>
+      <ul class="flex gap-x-4 flex-row mb-4">
         {tags.map((tag) => (
-          <li>{tag}</li>
+          <li>
+            <span class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
+              <tag.icon class="size-4"/> 
+              {tag.name}
+            </span> 
+          </li>
         ))}
       </ul>
-      <img src={image} alt={`Captura de pantalla del proyecto ${image}`}>
+      <img 
+        class="rounded shadow-2xl shadow-white/15" 
+        src={image} 
+        alt={`Captura de pantalla del proyecto ${image}`}>
     </article>
   ))
 }
