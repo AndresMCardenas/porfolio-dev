@@ -1,14 +1,16 @@
 ---
-import Github from "./icons/Github.astro";
+import GithubIcon from "./icons/GithubIcon.astro";
 import Html from "./icons/Html.astro";
 import Docker from "./icons/Docker.astro";
 import React from "./icons/React.astro";
 import Tailwind from "./icons/Tailwind.astro";
 import Typescript from "./icons/Typescript.astro";
-//import Node from "./icons/Node.astro";
+import NodeJS from "./icons/NodeJS.astro";
 import Expres from "./icons/ExpresJS.astro";
 import JavaScrip from "./icons/JavaScrip.astro";
 import Css from "./icons/Css.astro";
+import AstroIcon from "./icons/AstroIcon.astro";
+import LinkButton from "./LinkButton.astro";
 
 
 const TAGS = {
@@ -37,6 +39,17 @@ const TAGS = {
     class: 'bg-blue-500 text-white',
     icon: Docker,
   },
+  Astro:{
+    name: 'Astro',
+    class: 'bg-black text-white',
+    icon: AstroIcon,
+  },
+  NodeJS:{
+    name: 'NodeJS',
+    class: 'bg-green-500 text-white',
+    icon: NodeJS,
+  },
+    
 }
 
 
@@ -44,19 +57,28 @@ const TAGS = {
 const PROJECTS =[
   {
     title: 'Generador de Conecutivos',
-    desecription: ' Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker',
+    description: ' Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker',
     Github:"https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
     image: '/public/images/geneal.webp',
-    tags: [TAGS.HTML, TAGS.CSS, TAGS.JavaScrip, TAGS.Expres,TAGS.Docker]
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.JavaScrip, TAGS.Expres,TAGS.NodeJS,TAGS.Docker]
+  },
+  {
+    title: 'Portafolio minimalista',
+    description: ' Portafolio minimalista desarrollado con Astro, Tailwind y Typescript, diseñado para ser extremadamente sencillo y listo para imprimir, ofreciendo una presentación limpia y profesional de los proyectos y sigueindo las bases del tutorial de Midudev, y adecuandolo a un perfil de una psicologa de seleccion.',
+    Github:"https://github.com/AndresMCardenas/porfolio-edna-abril",
+    image: '/public/images/Porfolio-minimal (2).webp',
+    link:"https://edna-abril-cv.vercel.app/",
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.Astro]
   }
 ]
 ---
 
 {
-  PROJECTS.map(({title, desecription, tags, image}) => (
+  PROJECTS.map(({title, description, tags, image, Github, link}) => (
     <article>
+      
       <h3 class="text-2xl font-semibold text-yellow-200/80 mb-2">{title}</h3>
-      <p class="text-lg mb-4 text-pretty  ">{desecription}</p>
+      <p class="text-lg mb-4 text-pretty  ">{description}</p>
       <ul class="flex gap-x-4 flex-row mb-4">
         {tags.map((tag) => (
           <li>
@@ -68,9 +90,25 @@ const PROJECTS =[
         ))}
       </ul>
       <img 
-        class="rounded shadow-2xl shadow-white/15" 
+        class="rounded shadow-2xl shadow-white/25 gap-y-4" 
         src={image} 
         alt={`Captura de pantalla del proyecto ${image}`}>
+      </img>
+      <footer class="flex items-end justify-start mt-4 gap-x-4">
+        {Github && (
+          <LinkButton href={Github}>
+            <GithubIcon class="size-4"/>
+            GitHub              
+          </LinkButton>)
+        }
+        {link && (
+          <LinkButton href={link}>
+            <React class="size-4"/>
+            Ver Proyecto              
+          </LinkButton>)
+        }    
+      </footer>
+
     </article>
   ))
 }
