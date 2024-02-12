@@ -49,6 +49,16 @@ const TAGS = {
     class: 'bg-green-500 text-white',
     icon: NodeJS,
   },
+  Tailwind:{
+    name: 'Tailwind',
+    class: 'bg-blue-500 text-white',
+    icon: Tailwind,
+  },
+  Typescript:{
+    name: 'Typescript',
+    class: 'bg-blue-500 text-white',
+    icon: Typescript,
+  },
     
 }
 
@@ -64,11 +74,11 @@ const PROJECTS =[
   },
   {
     title: 'Portafolio minimalista',
-    description: ' Portafolio minimalista desarrollado con Astro, Tailwind y Typescript, diseñado para ser extremadamente sencillo y listo para imprimir, ofreciendo una presentación limpia y profesional de los proyectos y sigueindo las bases del tutorial de Midudev, y adecuandolo a un perfil de una psicologa de seleccion.',
+    description: 'Portafolio minimalista desarrollado con Astro, Tailwind y TypeScript, diseñado para ser extremadamente sencillo y listo para imprimir. Ofrece una presentación limpia y profesional de los proyectos, siguiendo las bases del tutorial de Midudev y adecuándolo al perfil de una psicóloga de selección',
     Github:"https://github.com/AndresMCardenas/porfolio-edna-abril",
     image: "https://lh3.googleusercontent.com/pw/ABLVV85PSDrgppPothOekK9heJ3DkJ8m0QAoGMorxckLgzG8A95uVSJcfAq2NgnKtfoBKCsSjTgkLumocclwhWe4qhbYX3AKPWCbUOYt2-77li1Lu8f1pQ=w2400",
     link:"https://edna-abril-cv.vercel.app/",
-    tags: [TAGS.HTML, TAGS.CSS, TAGS.Astro]
+    tags: [TAGS.HTML, TAGS.CSS, TAGS.Astro, TAGS.Tailwind, TAGS.Typescript]
   }
 ]
 ---
@@ -77,7 +87,7 @@ const PROJECTS =[
   PROJECTS.map(({title, description, tags, image, Github, link}) => (
     <article>
       
-      <h3 class="text-2xl font-semibold text-yellow-200/80 mb-2">{title}</h3>
+      <h3 class="text-2xl font-semibold text-yellow-200/80 mb-2 pb-4 py-10">{title}</h3>
       <p class="text-lg mb-4 text-pretty  ">{description}</p>
       <ul class="flex gap-x-4 flex-row mb-4">
         {tags.map((tag) => (

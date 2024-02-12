@@ -1,0 +1,169 @@
+{
+  "header":{
+    "home":"Home",
+    "about":"About",
+    "work":"Work",
+    "education":"Education",
+    "skills":"Skills",
+    "proyect":"Proyect"
+    },
+  "basics": {
+    "titel": "Andres Cardenas Portfolio de Desarrollo y Programador",
+    "description": "Passionate about continuous learning. I am a Junior Web Developer and Systems Analyst. From Bogota, Colombia. Committed to excellence and innovation in every project I undertake",
+    "name": "Andres Mauricio Cardenas Sanchez",
+    "label": "Developer and Software Engineer",
+    "image": "https://ii.ct-stc.com/1/logos/candidates/2024/01/16/0009029867926thumbnail.jpeg",
+    "email": "andrescar18@gmail.com",
+    "url": "null",
+    "summary": "I am professional passionate about programming and technology, with outstanding experience in multimedia support, service desk management, web development and logistics management. My background includes a solid command of tools such as Visual Studio Code, Node.js, JavaScript, Docker and Linux. In addition, I am immersed in the study and practical application of languages such as JavaScrip and Python",
+    "summary2": "My commitment to continuous improvement drives me to stay updated in a constantly evolving technological environment. I am dedicated to expanding my programming skills and exploring new technologies that drive innovation and efficiency in every project I participate in.",
+    "summary3": "Explore my Portfolio to discover more about my projects, skills and how I can contribute to the success of your team or project.",
+    "location": {
+      "address": "Cr 52b sur # 20-69 int 11 manz 28",
+      "postalCode": "Bog 111621",
+      "city": "Bogotá D.C.",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Andres Cardenas",
+        "url": "https://www.linkedin.com/in/andres-mauricio-cardenas-sachez-96102725/"
+      },
+      {
+        "network": "Github",
+        "username": "AndresMCardenas",
+        "url": "https://github.com/AndresMCardenas"
+      },
+      {
+        "network": "Descargar CV",
+        "username": "CV_Andres",
+        "url": "https://drive.google.com/file/d/10pvVLb1gbpMetZjijYMwW3g3GhijVD83/view"
+      }
+    ],
+    "badge": "Conoceme"
+  },
+  "work": [
+    {
+      "name": "CooprofesoresUn",
+      "position": "Systems Analyst",
+      "url": "",
+      "startDate": "2022-06-01",
+      "endDate": "",
+      "summary": "I am specializing in the development of web applications, excelling in the creation of innovative solutions. My experience includes first and second level multimedia support, with a focus on service desk management. However, where I really shine is in supporting the development of our own web applications, using tools such as HTML, CSS, JS and NodeJS. My experience includes efficient deployment through Docker containers."
+    },
+    {
+      "name": "Inversiones Lejis S.A.S",
+      "position": "Logistics and Commercial Supervisor",
+      "url": "",
+      "startDate": "2021-04-01",
+      "endDate": "2022-06-01",
+      "summary": "Durin my work experience, I successfully managed inventory control and product rotation, analyzing variations to identify causes and develop action plans. I efficiently carried out weekly and monthly inventory counts, optimizing processes to ensure accuracy and goal achievement. As responsible for logistics, I coordinated orders, reception, storage, preservation, rotation, exhibition and dispatches, focused on ensuring customer satisfaction and achieving sales goals. In addition, I supervised the operation, maintaining equipment and infrastructure, prioritizing daily cleaning and safety with immediate incident reports."
+    },
+    {
+      "name": "Alpina S.A",
+      "position": "Point of Sale Administrator",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2021-04-01",
+      "summary": "Like Administrator, I acquired key skills in inventory management and logistics during my work experience. I led inventory taking, ensured compliance with quality standards, and coordinated order logistics, storage and display. My focus on operational efficiency included maintaining equipment and infrastructure, ensuring daily safety and cleanliness. I handled the petty cash with precision, managing the collection and recording of sales. My strategic contribution and precise execution could be a valuable asset to your team, combining technical skills with a results-oriented approach."
+
+    }
+  ],
+  "education": [
+    {
+      "institution": "Servicio Nacional de Aprendizaje SENA",
+      "title": "Softwar Development Technician",
+      "url": "https://oferta.senasofiaplus.edu.co/",
+      "area": "Software Development",
+      "studyType": "Techinical",
+      "startDate": "2021-04-01",
+      "endDate": "2022-02-01",
+      "score": "4.5",
+      "courses": [
+        "Software Development"
+      ]
+    },
+    {
+      "institution": "Mintic - Universidad Industrial de Santander",
+      "title": "MISION TIC 2022 - Profundización en desarrollo de aplicaciones Móviles",
+      "url": "https://www.mintic.gov.co/portal/inicio/",
+      "area": "Software Development",
+      "studyType": "Advanced Course",
+      "startDate": "2022-04-18",
+      "endDate": "2022-11-25",
+      "score": "4.0",
+      "courses": [
+        "Software Development"
+      ]
+    },
+    {
+      "institution": "Mintic - Universidad Industrial de Santander",
+      "title": "MISION TIC 2022 - Fundamentos de programación en Python",
+      "url": "https://www.mintic.gov.co/portal/inicio/",
+      "area": "Software Development",
+      "studyType": "Advanced Course",
+      "startDate": "2022-04-18",
+      "endDate": "2022-11-25",
+      "score": "4.0",
+      "courses": [
+        "Software Development"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Photoshop",
+      "level": 50
+    },
+    {
+      "name": "Premiere",
+      "level": 70
+    },
+    {
+      "name": "After Effects",
+      "level": 30
+    },
+    {
+      "name": "Auditon",
+      "level": 40
+    },
+    {
+      "name": "podefinir",
+      "level": 30
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B2 - Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Amigo 1",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    },
+    {
+      "name": "Amigo 2",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    }
+  ]
+}

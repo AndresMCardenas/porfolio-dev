@@ -1,0 +1,168 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "work": "Experiencia",
+    "education": "Educación",
+    "skills": "Skills",
+    "proyect": "Proyectos"
+  },
+  "basics": {
+    "titel": "Andres Cardenas Portfolio de Desarrollo y Programador",
+    "description": "Apasionado por el aprendizaje continuo. soy un Desarrollador Web Junior y Analista de Sistemas. De Bogota, Colombia. Comprometido con la excelencia y la innovación en cada proyecto que emprendo",
+    "name": "Andres Mauricio Cardenas Sanchez",
+    "label": "Programador y Desarrollador de Software",
+    "image": "https://ii.ct-stc.com/1/logos/candidates/2024/01/16/0009029867926thumbnail.jpeg",
+    "email": "andrescar18@gmail.com",
+    "url": "null",
+    "summary": "Soy un profesional apasionado de la programación y la tecnología, con experiencia destacada en soporte multimedial, administración de mesas de servicio, desarrollo web y gestión logística. Mi trayectoria incluye un dominio sólido de herramientas como Visual Studio Code, Node.js, JavaScript, Docker y Linux. Además, estoy inmerso en el estudio y la aplicación práctica de lenguajes como JavaScrip y Python",
+    "summary2": "Mi compromiso con la mejora continua me impulsa a mantenerme actualizado en un entorno tecnológico en constante evolución. Estoy dedicado a expandir mis habilidades de programación y explorar nuevas tecnologías que impulsen la innovación y la eficiencia en cada proyecto en el que participo.",
+    "summary3": "Explora mi Portfolio para descubrir más sobre mis proyectos, habilidades y cómo puedo contribuir al éxito de tu equipo o proyecto.",
+    "location": {
+      "address": "Cr 52b sur # 20-69 int 11 manzana 28",
+      "postalCode": "Bog 111621",
+      "city": "Bogotá D.C.",
+      "countryCode": "CO",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Andres Cardenas",
+        "url": "https://www.linkedin.com/in/andres-mauricio-cardenas-sachez-96102725/"
+      },
+      {
+        "network": "Github",
+        "username": "AndresMCardenas",
+        "url": "https://github.com/AndresMCardenas"
+      },{
+        "network": "Descargar CV",
+        "username": "CV_Andres",
+        "url": "https://drive.google.com/file/d/10pvVLb1gbpMetZjijYMwW3g3GhijVD83/view"
+      }
+    ],
+    "badge": "Conoceme"
+  },
+  "work": [
+    {
+      "name": "CooprofesoresUn",
+      "position": "Analista de sistemas",
+      "url": "",
+      "startDate": "2022-06-01",
+      "endDate": "",
+      "summary": "Me estoy especializando en el desarrollo de aplicaciones web, destacando en la creación de soluciones innovadoras. Mi experiencia abarca el soporte multimedial de primer y segundo nivel, con enfoque en la administración y gestión de la mesa de servicio. Sin embargo, donde realmente brillo es en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. Mi experiencia incluye el despliegue eficiente mediante contenedores de Docker."
+     
+    },
+    {
+      "name": "Inversiones Lejis S.A.S",
+      "position": "Supervisor logistico y comercial",
+      "url": "",
+      "startDate": "2021-04-01",
+      "endDate": "2022-06-01",
+      "summary": "Durante mi experiencia laboral, gestioné con éxito el control de inventario y la rotación de productos, analizando variaciones para identificar causas y desarrollar planes de acción. Realicé eficientemente la toma de inventarios de manera semanal y mensual, optimizando procesos para garantizar precisión y cumplimiento de objetivos. Como responsable de la logística, coordiné pedidos, recepción, almacenamiento, preservación, rotación, exhibición y despachos, centrado en asegurar la satisfacción del cliente y alcanzar metas de ventas. Además, supervisé la operación, manteniendo equipos e infraestructura, priorizando la limpieza y seguridad diaria con reportes inmediatos de incidentes."
+    },
+    { 
+      "name": "Alpina S.A",
+      "position": "Administrador punto de venta",
+      "url": "",
+      "startDate": "2017-01-01",
+      "endDate": "2021-04-01",
+      "summary": "Como Administrador, adquirí habilidades clave en gestión de inventario y logística durante mi experiencia laboral. Lideré la toma de inventarios, aseguré el cumplimiento de normas de calidad, y coordiné la logística de pedidos, almacenamiento y exhibición. Mi enfoque en la eficiencia operativa incluyó el mantenimiento de equipos e infraestructura, garantizando la seguridad y limpieza diaria. Manejé la caja menor con precisión, gestionando el recaudo y registrando las ventas. Mi contribución estratégica y ejecución precisa podría ser un activo valioso para su equipo, combinando habilidades técnicas con un enfoque centrado en resultados."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Servicio Nacional de Aprendizaje SENA",
+      "title": "Tecnico en Programación de Software",
+      "url": "https://oferta.senasofiaplus.edu.co/",
+      "area": "Programación de Software",
+      "studyType": "Tecnico",
+      "startDate": "2021-04-01",
+      "endDate": "2022-02-01",
+      "score": "4.5",
+      "courses": [
+        "Programación de Software"
+      ]
+    },
+    {
+      "institution": "Mintic - Universidad Industrial de Santander",
+      "title": "MISION TIC 2022 - Profundización en desarrollo de aplicaciones Móviles",
+      "url": "https://www.mintic.gov.co/portal/inicio/",
+      "area": "Programación de Software",
+      "studyType": "Curso de profundización",
+      "startDate": "2022-04-18",
+      "endDate": "2022-11-25",
+      "score": "4.0",
+      "courses": [
+        "Programación de Software"
+      ]
+    },
+    {
+      "institution": "Mintic - Universidad Industrial de Santander",
+      "title": "MISION TIC 2022 - Fundamentos de programación en Python",
+      "url": "https://www.mintic.gov.co/portal/inicio/",
+      "area": "Programación de Software",
+      "studyType": "Curso de profundización",
+      "startDate": "2022-04-18",
+      "endDate": "2022-11-25",
+      "score": "4.0",
+      "courses": [
+        "Programación de Software"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Photoshop",
+      "level": 50
+    },
+    {
+      "name": "Premiere",
+      "level": 70
+    },
+    {
+      "name": "After Effects",
+      "level": 30
+    },
+    {
+      "name": "Auditon",
+      "level": 40
+    },
+    {
+      "name": "podefinir",
+      "level": 30
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B2 - Intermedio"
+    }
+  ],
+  "interests": [
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Amigo 1",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    },
+    {
+      "name": "Amigo 2",
+      "reference": "Inserte referencia.",
+      "contact": "Inserte contacto."
+    }
+  ]
+}
