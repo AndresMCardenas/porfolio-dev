@@ -3,15 +3,17 @@ import { getI18n } from "../components/i18n/index";
 
 const {currentLocale} = Astro;
 const i18n = getI18n({currentLocale});
+import LanguageSelector from "../components/Language-selector.astro";
 ---
 <header id="header-nav" class="fixed top-0 left-0 right-0 flex justify-center items-center py-5 w-full xl:w-[1120px] mx-auto"> 
 
-  <nav class="flex flex-row gap-x-10 opacity-80">
+  <nav class="flex flex-row gap-x-10 opacity-80 text-white ">
     <a href="#top">{i18n.header.home}</a>
     <a href="#experiencia">{i18n.header.work}</a>
     <a href="#proyectos">{i18n.header.proyect}</a>
     <a href="#sobre-mi">{i18n.header.about}</a>
     <a href="#education">{i18n.header.education}</a>
+    <a></a>
   </nav>
-
+  <LanguageSelector />
 </header>
