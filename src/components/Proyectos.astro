@@ -69,18 +69,18 @@ const TAGS = {
 
 const PROJECTS =[
   {
-    title: 'Generador de Consecutivos',
-    description: ' Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker',
-    Github:"https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
-    image: "https://lh3.googleusercontent.com/pw/ABLVV86k7dw0glb0EP9L8FAhkfEA2uE95MCNH6ermcS_JmKPUSelWdUV8rsJpx_KViuaAZ2NlpqQttuLVfTpCkWGFbarfvWAUHQNrnkZdKeJXOT8_AJrNA=w2400",
+    title: `${i18n.projects.title1}`,
+    description: `${i18n.projects.description1}`,
+    Github:`${i18n.projects.github1}`,
+    image: `${i18n.projects.image1}`,
     tags: [TAGS.HTML, TAGS.CSS, TAGS.JavaScrip, TAGS.Expres,TAGS.NodeJS,TAGS.Docker]
   },
   {
-    title: 'Portafolio minimalista',
-    description: 'Portafolio minimalista desarrollado con Astro, Tailwind y TypeScript, diseñado para ser extremadamente sencillo y listo para imprimir. Ofrece una presentación limpia y profesional de los proyectos, siguiendo las bases del tutorial de Midudev y adecuándolo al perfil de una psicóloga de selección',
-    Github:"https://github.com/AndresMCardenas/porfolio-edna-abril",
-    image: "https://lh3.googleusercontent.com/pw/ABLVV85PSDrgppPothOekK9heJ3DkJ8m0QAoGMorxckLgzG8A95uVSJcfAq2NgnKtfoBKCsSjTgkLumocclwhWe4qhbYX3AKPWCbUOYt2-77li1Lu8f1pQ=w2400",
-    link:"https://edna-abril-cv.vercel.app/",
+    title: `${i18n.projects.title2}`,
+    description: `${i18n.projects.description2}`,
+    Github:`${i18n.projects.github2}`,
+    image: `${i18n.projects.image2}`,
+    link:`${i18n.projects.link2}`,
     tags: [TAGS.HTML, TAGS.CSS, TAGS.Astro, TAGS.Tailwind, TAGS.Typescript]
   }
 ]
@@ -117,7 +117,7 @@ const PROJECTS =[
         {link && (
           <LinkButton href={link} >
             <React class="size-4"/>
-            Ver Proyecto              
+            {i18n.verproject}              
           </LinkButton>)
         }    
       </footer>

@@ -57,74 +57,84 @@
     ],
     "badge": "Conoceme"
   },
-  "work": [
-    {
-      "name": "CooprofesoresUn",
-      "position": "Analista de sistemas",
-      "url": "",
-      "startDate": "2022-06-01",
-      "endDate": "",
-      "summary": "Me estoy especializando en el desarrollo de aplicaciones web, destacando en la creación de soluciones innovadoras. Mi experiencia abarca el soporte multimedial de primer y segundo nivel, con enfoque en la administración y gestión de la mesa de servicio. Sin embargo, donde realmente brillo es en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. Mi experiencia incluye el despliegue eficiente mediante contenedores de Docker."
-     
-    },
-    {
-      "name": "Inversiones Lejis S.A.S",
-      "position": "Supervisor logistico y comercial",
-      "url": "",
-      "startDate": "2021-04-01",
-      "endDate": "2022-06-01",
-      "summary": "Durante mi experiencia laboral, gestioné con éxito el control de inventario y la rotación de productos, analizando variaciones para identificar causas y desarrollar planes de acción. Realicé eficientemente la toma de inventarios de manera semanal y mensual, optimizando procesos para garantizar precisión y cumplimiento de objetivos. Como responsable de la logística, coordiné pedidos, recepción, almacenamiento, preservación, rotación, exhibición y despachos, centrado en asegurar la satisfacción del cliente y alcanzar metas de ventas. Además, supervisé la operación, manteniendo equipos e infraestructura, priorizando la limpieza y seguridad diaria con reportes inmediatos de incidentes."
-    },
-    { 
-      "name": "Alpina S.A",
-      "position": "Administrador punto de venta",
-      "url": "",
-      "startDate": "2017-01-01",
-      "endDate": "2021-04-01",
-      "summary": "Como Administrador, adquirí habilidades clave en gestión de inventario y logística durante mi experiencia laboral. Lideré la toma de inventarios, aseguré el cumplimiento de normas de calidad, y coordiné la logística de pedidos, almacenamiento y exhibición. Mi enfoque en la eficiencia operativa incluyó el mantenimiento de equipos e infraestructura, garantizando la seguridad y limpieza diaria. Manejé la caja menor con precisión, gestionando el recaudo y registrando las ventas. Mi contribución estratégica y ejecución precisa podría ser un activo valioso para su equipo, combinando habilidades técnicas con un enfoque centrado en resultados."
-    }
-  ],
-  "education": [
-    {
-      "institution": "Servicio Nacional de Aprendizaje SENA",
-      "title": "Tecnico en Programación de Software",
-      "url": "https://oferta.senasofiaplus.edu.co/",
-      "area": "Programación de Software",
-      "studyType": "Tecnico",
-      "startDate": "2021-04-01",
-      "endDate": "2022-02-01",
-      "score": "4.5",
-      "courses": [
+  "work": {
+      "name1": "CooprofesoresUn",
+      "position1": "Analista de sistemas",
+      "url1": "",
+      "startDate1": "Junio 2022",
+      "endDate1": "Actualmente",
+      "summary1": "Me estoy especializando en el desarrollo de aplicaciones web, destacando en la creación de soluciones innovadoras. Mi experiencia abarca el soporte multimedial de primer y segundo nivel, con enfoque en la administración y gestión de la mesa de servicio. Sin embargo, donde realmente brillo es en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. Mi experiencia incluye el despliegue eficiente mediante contenedores de Docker.",
+    
+      "name2": "Inversiones Lejis S.A.S",
+      "position2": "Supervisor logistico y comercial",
+      "url2": "",
+      "startDate2": "Abril 2021",
+      "endDate2": "Junio 2022",
+      "summary2": "Durante mi experiencia laboral, gestioné con éxito el control de inventario y la rotación de productos, analizando variaciones para identificar causas y desarrollar planes de acción. Realicé eficientemente la toma de inventarios de manera semanal y mensual, optimizando procesos para garantizar precisión y cumplimiento de objetivos. Como responsable de la logística, coordiné pedidos, recepción, almacenamiento, preservación, rotación, exhibición y despachos, centrado en asegurar la satisfacción del cliente y alcanzar metas de ventas. Además, supervisé la operación, manteniendo equipos e infraestructura, priorizando la limpieza y seguridad diaria con reportes inmediatos de incidentes.",
+   
+      "name3": "Alpina S.A",
+      "position3": "Administrador punto de venta",
+      "url3": "",
+      "startDate3": "Enero 2017",
+      "endDate3": "Abril 2021",
+      "summary3": "Como Administrador, adquirí habilidades clave en gestión de inventario y logística durante mi experiencia laboral. Lideré la toma de inventarios, aseguré el cumplimiento de normas de calidad, y coordiné la logística de pedidos, almacenamiento y exhibición. Mi enfoque en la eficiencia operativa incluyó el mantenimiento de equipos e infraestructura, garantizando la seguridad y limpieza diaria. Manejé la caja menor con precisión, gestionando el recaudo y registrando las ventas. Mi contribución estratégica y ejecución precisa podría ser un activo valioso para su equipo, combinando habilidades técnicas con un enfoque centrado en resultados."
+  },
+  "education": {
+      "institution1": "Servicio Nacional de Aprendizaje SENA",
+      "title1": "Tecnico en Programación de Software",
+      "url1": "https://oferta.senasofiaplus.edu.co/",
+      "area1": "Programación de Software",
+      "studyType1": "Tecnico",
+      "startDate1": "2021",
+      "endDate1": "2022",
+      "score1": "4.5",
+      "courses1": [
+        "Programación de Software"
+      ],
+
+      "institution2": "Mintic - Universidad Industrial de Santander",
+      "title2": "MISION TIC 2022 - Profundización en desarrollo de aplicaciones Móviles",
+      "url2": "https://www.mintic.gov.co/portal/inicio/",
+      "area2": "Programación de Software",
+      "studyType2": "Curso de profundización",
+      "startDate2": "2022",
+      "endDate2": "2022",
+      "score2": "4.0",
+      "courses2": [
+        "Programación de Software"
+      ],
+    
+      "institution3": "Mintic - Universidad Industrial de Santander",
+      "title3": "MISION TIC 2022 - Fundamentos de programación en Python",
+      "url3": "https://www.mintic.gov.co/portal/inicio/",
+      "area3": "Programación de Software",
+      "studyType3": "Curso de profundización",
+      "startDate3": "2022",
+      "endDate3": "2022",
+      "score3": "4.0",
+      "courses3": [
         "Programación de Software"
       ]
-    },
-    {
-      "institution": "Mintic - Universidad Industrial de Santander",
-      "title": "MISION TIC 2022 - Profundización en desarrollo de aplicaciones Móviles",
-      "url": "https://www.mintic.gov.co/portal/inicio/",
-      "area": "Programación de Software",
-      "studyType": "Curso de profundización",
-      "startDate": "2022-04-18",
-      "endDate": "2022-11-25",
-      "score": "4.0",
-      "courses": [
-        "Programación de Software"
-      ]
-    },
-    {
-      "institution": "Mintic - Universidad Industrial de Santander",
-      "title": "MISION TIC 2022 - Fundamentos de programación en Python",
-      "url": "https://www.mintic.gov.co/portal/inicio/",
-      "area": "Programación de Software",
-      "studyType": "Curso de profundización",
-      "startDate": "2022-04-18",
-      "endDate": "2022-11-25",
-      "score": "4.0",
-      "courses": [
-        "Programación de Software"
-      ]
-    }
-  ],
+  },
+  "projects": {
+    "title1": "Generador de Consecutivos",
+    "description1": "Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker",
+    "github1": "https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",    
+    "image1": "https://lh3.googleusercontent.com/pw/ABLVV86k7dw0glb0EP9L8FAhkfEA2uE95MCNH6ermcS_JmKPUSelWdUV8rsJpx_KViuaAZ2NlpqQttuLVfTpCkWGFbarfvWAUHQNrnkZdKeJXOT8_AJrNA=w2400",
+    "link1":"",
+
+    "title2": "Portafolio minimalista",
+    "description2": "Portafolio minimalista desarrollado con Astro, Tailwind y TypeScript, diseñado para ser extremadamente sencillo y listo para imprimir. Ofrece una presentación limpia y profesional de los proyectos, siguiendo las bases del tutorial de Midudev y adecuándolo al perfil de una psicóloga de selección",
+    "github2": "https://github.com/AndresMCardenas/porfolio-edna-abril",
+    "image2": "https://lh3.googleusercontent.com/pw/ABLVV85PSDrgppPothOekK9heJ3DkJ8m0QAoGMorxckLgzG8A95uVSJcfAq2NgnKtfoBKCsSjTgkLumocclwhWe4qhbYX3AKPWCbUOYt2-77li1Lu8f1pQ=w2400",
+    "link2":"https://edna-abril-cv.vercel.app/",
+
+    "title3": "",
+    "description3": "",
+    "github3": "",
+    "image3": "",
+    "link3": ""
+  },
   "skills": [
     {
       "name": "Photoshop",
@@ -167,16 +177,14 @@
       "name": ""
     }
   ],
-  "references": [
-    {
-      "name": "Amigo 1",
-      "reference": "Inserte referencia.",
-      "contact": "Inserte contacto."
-    },
-    {
-      "name": "Amigo 2",
-      "reference": "Inserte referencia.",
-      "contact": "Inserte contacto."
-    }
-  ]
+  "references": {
+      "name1": "Amigo 1",
+      "reference1": "Inserte referencia.",
+      "contact1": "Inserte contacto.",
+   
+      "name2": "Amigo 2",
+      "reference2": "Inserte referencia.",
+      "contact2": "Inserte contacto."
+  },
+  "verproject":"Ver Proyecto"    
 }

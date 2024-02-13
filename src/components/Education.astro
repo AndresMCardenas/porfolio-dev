@@ -3,24 +3,63 @@ import { getI18n } from "../components/i18n/index";
 
 const { currentLocale } = Astro;
 const i18n = getI18n({ currentLocale });
-const EDUCATION  = i18n.references.map;
+
 ---
-<!-- <ul>
-  {  
-    {EDUCATION}.map(
-      ({institution, title,studyType,startDate,endDate}) 
-      => {
-        return(
-        <li>
-          <h3>{institution}</h3>
-          <p>{title}</p>
-          <p>{studyType}</p>
-          <p>{startDate} - {endDate}</p>
-          </li>
-        )
-      }
-    )
+ 
+<ul>
+  <article>
+    <header>
+      <h2 class=" text-yellow-200/80 mb-2 ">{i18n.education.institution1}</h2>
+      <h3>{i18n.education.title1}</h3>
+    </header>    
+    <time> {i18n.education.startDate1} - {i18n.education.endDate1} </time>
+    <footer>
+      <p>{i18n.education.studyType1}</p>
+    </footer>
+  </article> 
+  
+  <article>
+    <header>
+      <h2 class=" text-yellow-200/80 mb-2 ">{i18n.education.institution2}</h2>
+      <h3>{i18n.education.title2}</h3>
+    </header>    
+    <time> {i18n.education.startDate2} - {i18n.education.endDate2} </time>
+    <footer>
+      <p>{i18n.education.studyType2}</p>
+    </footer>
+  </article> 
+    
+  <article>
+    <header>
+      <h2 class=" text-yellow-200/80 mb-2 ">{i18n.education.institution3}</h2>
+      <h3>{i18n.education.title3}</h3>
+    </header>    
+    <time> {i18n.education.startDate3} - {i18n.education.endDate3} </time>
+    <footer>
+      <p>{i18n.education.studyType3}</p>
+    </footer>
+  </article>   
+  
+</ul>
+
+<style>
+
+  article h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: ;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
   }
-</ul> -->
-<!-- <h1>EDUCATION</h1>
-<h1>{i18n.references}</h1> -->
+
+  article h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: ;
+    padding-bottom: 1rem;
+  }
+  article p {
+    padding-top: 1rem ;
+  }
+
+</style>

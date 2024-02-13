@@ -6,7 +6,7 @@
     "education":"Education",
     "skills":"Skills",
     "proyect":"Proyect"
-    },
+  },
   "basics": {
     "titel": "Andres Cardenas Portfolio de Desarrollo y Programador",
     "description1": "Passionate about continuous learning.",
@@ -57,74 +57,85 @@
     ],
     "badge": "Conoceme"
   },
-  "work": [
-    {
-      "name": "CooprofesoresUn",
-      "position": "Systems Analyst",
-      "url": "",
-      "startDate": "2022-06-01",
-      "endDate": "",
-      "summary": "I am specializing in the development of web applications, excelling in the creation of innovative solutions. My experience includes first and second level multimedia support, with a focus on service desk management. However, where I really shine is in supporting the development of our own web applications, using tools such as HTML, CSS, JS and NodeJS. My experience includes efficient deployment through Docker containers."
-    },
-    {
-      "name": "Inversiones Lejis S.A.S",
-      "position": "Logistics and Commercial Supervisor",
-      "url": "",
-      "startDate": "2021-04-01",
-      "endDate": "2022-06-01",
-      "summary": "Durin my work experience, I successfully managed inventory control and product rotation, analyzing variations to identify causes and develop action plans. I efficiently carried out weekly and monthly inventory counts, optimizing processes to ensure accuracy and goal achievement. As responsible for logistics, I coordinated orders, reception, storage, preservation, rotation, exhibition and dispatches, focused on ensuring customer satisfaction and achieving sales goals. In addition, I supervised the operation, maintaining equipment and infrastructure, prioritizing daily cleaning and safety with immediate incident reports."
-    },
-    {
-      "name": "Alpina S.A",
-      "position": "Point of Sale Administrator",
-      "url": "",
-      "startDate": "2017-01-01",
-      "endDate": "2021-04-01",
-      "summary": "Like Administrator, I acquired key skills in inventory management and logistics during my work experience. I led inventory taking, ensured compliance with quality standards, and coordinated order logistics, storage and display. My focus on operational efficiency included maintaining equipment and infrastructure, ensuring daily safety and cleanliness. I handled the petty cash with precision, managing the collection and recording of sales. My strategic contribution and precise execution could be a valuable asset to your team, combining technical skills with a results-oriented approach."
+  "work": {
+      "name1": "CooprofesoresUn",
+      "position1": "Systems Analyst",
+      "url1": "",
+      "startDate1": "July 2022",
+      "endDate1": "Present",
+      "summary1": "I am specializing in the development of web applications, excelling in the creation of innovative solutions. My experience includes first and second level multimedia support, with a focus on service desk management. However, where I really shine is in supporting the development of our own web applications, using tools such as HTML, CSS, JS and NodeJS. My experience includes efficient deployment through Docker containers.",
+    
+      "name2": "Inversiones Lejis S.A.S",
+      "position2": "Logistics and Commercial Supervisor",
+      "url2": "",
+      "startDate2": "April 2021",
+      "endDate2": "June 2022",
+      "summary2": "Durin my work experience, I successfully managed inventory control and product rotation, analyzing variations to identify causes and develop action plans. I efficiently carried out weekly and monthly inventory counts, optimizing processes to ensure accuracy and goal achievement. As responsible for logistics, I coordinated orders, reception, storage, preservation, rotation, exhibition and dispatches, focused on ensuring customer satisfaction and achieving sales goals. In addition, I supervised the operation, maintaining equipment and infrastructure, prioritizing daily cleaning and safety with immediate incident reports.",
+  
+      "name3": "Alpina S.A",
+      "position3": "Point of Sale Administrator",
+      "url3": "",
+      "startDate3": "Junary 2017",
+      "endDate3": "April 2021",
+      "summary3": "Like Administrator, I acquired key skills in inventory management and logistics during my work experience. I led inventory taking, ensured compliance with quality standards, and coordinated order logistics, storage and display. My focus on operational efficiency included maintaining equipment and infrastructure, ensuring daily safety and cleanliness. I handled the petty cash with precision, managing the collection and recording of sales. My strategic contribution and precise execution could be a valuable asset to your team, combining technical skills with a results-oriented approach."
 
-    }
-  ],
-  "education": [
-    {
-      "institution": "Servicio Nacional de Aprendizaje SENA",
-      "title": "Softwar Development Technician",
-      "url": "https://oferta.senasofiaplus.edu.co/",
-      "area": "Software Development",
-      "studyType": "Techinical",
-      "startDate": "2021-04-01",
-      "endDate": "2022-02-01",
-      "score": "4.5",
-      "courses": [
+  },
+  "education":{
+      "institution1": "National Learning Service SENA",
+      "title1": "Software Development Technician",
+      "url1": "https://oferta.senasofiaplus.edu.co/",
+      "area1": "Software Development",
+      "studyType1": "Techinical",
+      "startDate1": "2021",
+      "endDate1": "2022",
+      "score1": "4.5",
+      "courses1": [
+        "Software Development"
+      ],
+
+      "institution2": "Mintic - Industrial University of Santander",
+      "title2": "MISION TIC 2022 - In-depth Mobile App Development",
+      "url2": "https://www.mintic.gov.co/portal/inicio/",
+      "area2": "Software Development",
+      "studyType2": "Advanced Course",
+      "startDate2": "2022",
+      "endDate2": "2022",
+      "score2": "4.0",
+      "courses2": [
+        "Software Development"
+      ],
+
+      "institution3": "Mintic - Industrial University of Santander",
+      "title3": "MISION TIC 2022 - Fundamentals of Python Programming",
+      "url3": "https://www.mintic.gov.co/portal/inicio/",
+      "area3": "Software Development",
+      "studyType3": "Advanced Course",
+      "startDate3": "2022",
+      "endDate3": "2022",
+      "score3": "4.0",
+      "courses3": [
         "Software Development"
       ]
     },
-    {
-      "institution": "Mintic - Universidad Industrial de Santander",
-      "title": "MISION TIC 2022 - Profundización en desarrollo de aplicaciones Móviles",
-      "url": "https://www.mintic.gov.co/portal/inicio/",
-      "area": "Software Development",
-      "studyType": "Advanced Course",
-      "startDate": "2022-04-18",
-      "endDate": "2022-11-25",
-      "score": "4.0",
-      "courses": [
-        "Software Development"
-      ]
-    },
-    {
-      "institution": "Mintic - Universidad Industrial de Santander",
-      "title": "MISION TIC 2022 - Fundamentos de programación en Python",
-      "url": "https://www.mintic.gov.co/portal/inicio/",
-      "area": "Software Development",
-      "studyType": "Advanced Course",
-      "startDate": "2022-04-18",
-      "endDate": "2022-11-25",
-      "score": "4.0",
-      "courses": [
-        "Software Development"
-      ]
-    }
-  ],
+  "projects":{
+    "title1": "Consecutive Number Generator",
+    "description1": "Development of a web application aimed at efficiently managing the consecutive numbers of official communications in our company. The application features a robust access control system through Active Directory, thus ensuring the security and privacy of information, all deployed in Docker.",
+    "github1": "https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
+    "image1": "https://lh3.googleusercontent.com/pw/ABLVV86k7dw0glb0EP9L8FAhkfEA2uE95MCNH6ermcS_JmKPUSelWdUV8rsJpx_KViuaAZ2NlpqQttuLVfTpCkWGFbarfvWAUHQNrnkZdKeJXOT8_AJrNA=w2400",
+    "link1": "",
+
+    "title2": "Minimalist Portfolio",
+    "description2": "Minimalist portfolio developed with Astro, Tailwind, and TypeScript, designed to be extremely simple and print-ready. It offers a clean and professional presentation of projects, following the foundations of the Midudev tutorial and tailored to the profile of a selection psychologist.",
+    "github2": "https://github.com/AndresMCardenas/porfolio-edna-abril",
+    "image2": "https://lh3.googleusercontent.com/pw/ABLVV85PSDrgppPothOekK9heJ3DkJ8m0QAoGMorxckLgzG8A95uVSJcfAq2NgnKtfoBKCsSjTgkLumocclwhWe4qhbYX3AKPWCbUOYt2-77li1Lu8f1pQ=w2400",
+    "link2": "https://edna-abril-cv.vercel.app/",
+
+    "title3": "",
+    "description3": "",
+    "github3": "",
+    "image3": "",
+    "link3": ""
+  },  
   "skills": [
     {
       "name": "Photoshop",
@@ -167,16 +178,14 @@
       "name": ""
     }
   ],
-  "references": [
-    {
-      "name": "Amigo 1",
-      "reference": "Inserte referencia.",
-      "contact": "Inserte contacto."
-    },
-    {
-      "name": "Amigo 2",
-      "reference": "Inserte referencia.",
-      "contact": "Inserte contacto."
-    }
-  ]
+  "references": {
+      "name1": "Amigo 1",
+      "reference1": "Inserte referencia.",
+      "contact1": "Inserte contacto.",
+    
+      "name2": "Amigo 2",
+      "reference2": "Inserte referencia.",
+      "contact2": "Inserte contacto."
+  },
+  "verproject": "View Project"
 }
