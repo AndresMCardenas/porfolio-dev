@@ -9,15 +9,28 @@
   },
   "basics": {
     "titel": "Andres Cardenas Portfolio de Desarrollo y Programador",
-    "description": "Apasionado por el aprendizaje continuo. soy un Desarrollador Web Junior y Analista de Sistemas. De Bogota, Colombia. Comprometido con la excelencia y la innovación en cada proyecto que emprendo",
+    "description1": "Apasionado por el aprendizaje continuo.",
+    "description11":"soy un Desarrollador Web Junior y Analista de Sistemas.",
+    "description12":"De Bogota, Colombia. Comprometido con la excelencia y la innovación en cada proyecto que emprendo",
+    "description2":"Conoce mi porfolio y proyectos de desarrollo web y programación, conoce mi experiencia y habilidades.",
+    "greeting":"Hola, soy",
     "name": "Andres Mauricio Cardenas Sanchez",
     "label": "Programador y Desarrollador de Software",
     "image": "https://ii.ct-stc.com/1/logos/candidates/2024/01/16/0009029867926thumbnail.jpeg",
+    "aboutMe":"Sobre mí",
+    "experience":"Experiencia laboral",
+    "education": "Educación",
+    "project":"Proyectos",
+    "CV":"Descargar CV",
     "email": "andrescar18@gmail.com",
     "url": "null",
-    "summary": "Soy un profesional apasionado de la programación y la tecnología, con experiencia destacada en soporte multimedial, administración de mesas de servicio, desarrollo web y gestión logística. Mi trayectoria incluye un dominio sólido de herramientas como Visual Studio Code, Node.js, JavaScript, Docker y Linux. Además, estoy inmerso en el estudio y la aplicación práctica de lenguajes como JavaScrip y Python",
+    "greetingAbout": "Me llamo Andres Cardenas ",
+    "summary1": "Soy un profesional apasionado de la programación y la tecnología, con experiencia destacada en soporte multimedial, administración de mesas de servicio, desarrollo web y gestión logística. Mi trayectoria incluye un dominio sólido de herramientas como Visual Studio Code, Node.js, JavaScript, Docker y Linux. Además, estoy inmerso en el estudio y la aplicación práctica de lenguajes como JavaScrip y Python",
     "summary2": "Mi compromiso con la mejora continua me impulsa a mantenerme actualizado en un entorno tecnológico en constante evolución. Estoy dedicado a expandir mis habilidades de programación y explorar nuevas tecnologías que impulsen la innovación y la eficiencia en cada proyecto en el que participo.",
     "summary3": "Explora mi Portfolio para descubrir más sobre mis proyectos, habilidades y cómo puedo contribuir al éxito de tu equipo o proyecto.",
+    "summary4":"Además, estoy en proceso de mejorar mi nivel de inglés para mejorar mis capacidades de comunicación y colaboración en un entorno internacional.",
+    "codeP":"Código del Portfolio",
+    "thanks":" Gracias a:",
     "location": {
       "address": "Cr 52b sur # 20-69 int 11 manzana 28",
       "postalCode": "Bog 111621",
@@ -25,7 +38,8 @@
       "countryCode": "CO",
       "region": "Colombia"
     },
-    "profiles": [
+    "profiles": 
+    [
       {
         "network": "LinkedIn",
         "username": "Andres Cardenas",

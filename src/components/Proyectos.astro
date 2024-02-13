@@ -12,6 +12,11 @@ import Css from "./icons/Css.astro";
 import AstroIcon from "./icons/AstroIcon.astro";
 import LinkButton from "./LinkButton.astro";
 
+import { getI18n } from "../components/i18n/index";
+
+const {currentLocale} = Astro;
+const i18n = getI18n({currentLocale});
+
 
 const TAGS = {
   HTML:{
@@ -62,11 +67,9 @@ const TAGS = {
     
 }
 
-
-
 const PROJECTS =[
   {
-    title: 'Generador de Conecutivos',
+    title: 'Generador de Consecutivos',
     description: ' Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker',
     Github:"https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
     image: "https://lh3.googleusercontent.com/pw/ABLVV86k7dw0glb0EP9L8FAhkfEA2uE95MCNH6ermcS_JmKPUSelWdUV8rsJpx_KViuaAZ2NlpqQttuLVfTpCkWGFbarfvWAUHQNrnkZdKeJXOT8_AJrNA=w2400",
@@ -106,13 +109,13 @@ const PROJECTS =[
       </img>
       <footer class="flex items-end justify-start mt-4 gap-x-4">
         {Github && (
-          <LinkButton href={Github}>
+          <LinkButton href={Github} >
             <GithubIcon class="size-4"/>
             GitHub              
           </LinkButton>)
         }
         {link && (
-          <LinkButton href={link}>
+          <LinkButton href={link} >
             <React class="size-4"/>
             Ver Proyecto              
           </LinkButton>)

@@ -1,5 +1,11 @@
 ---
 import ExperienceItem from "./ExperienceItem.astro"
+
+import { getI18n } from "../components/i18n/index";
+
+const {currentLocale} = Astro;
+const i18n = getI18n({currentLocale});
+
 const EXPERIENCIE = [
   {
     date: "Junio 2022 -- Actualmente...",

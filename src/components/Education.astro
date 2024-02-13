@@ -1,0 +1,26 @@
+---
+import { getI18n } from "../components/i18n/index";
+
+const { currentLocale } = Astro;
+const i18n = getI18n({ currentLocale });
+const EDUCATION  = i18n.references.map;
+---
+<!-- <ul>
+  {  
+    {EDUCATION}.map(
+      ({institution, title,studyType,startDate,endDate}) 
+      => {
+        return(
+        <li>
+          <h3>{institution}</h3>
+          <p>{title}</p>
+          <p>{studyType}</p>
+          <p>{startDate} - {endDate}</p>
+          </li>
+        )
+      }
+    )
+  }
+</ul> -->
+<!-- <h1>EDUCATION</h1>
+<h1>{i18n.references}</h1> -->
