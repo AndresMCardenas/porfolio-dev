@@ -95,8 +95,8 @@ const PROJECTS =[
       <ul class="flex gap-x-4 flex-row mb-4">
         {tags.map((tag) => (
           <li>
-            <span class={`flex gap-x-2 rounded-full text-xs ${tag.class} py-1 px-2`}>
-              <tag.icon class="size-4"/> 
+            <span class={`${tag.class} flex-wrap py-1 px-2`}>
+              <tag.icon class="size-5"/> 
               {tag.name}
             </span> 
           </li>
@@ -107,7 +107,7 @@ const PROJECTS =[
         src= {image}
         alt={`Captura de pantalla del proyecto`}>
       </img>
-      <footer class="flex items-end justify-start mt-4 gap-x-4">
+      <footer class="flex items-end justify-start mt-4 gap-x-4 flex-grow">
         {Github && (
           <LinkButton href={Github} >
             <GithubIcon class="size-4"/>
@@ -125,3 +125,15 @@ const PROJECTS =[
     </article>
   ))
 }
+
+<style>
+  article span{
+    display: flex;
+    column-gap: 0.5rem;
+    font-size: 0.90rem;
+    line-height: 1rem;
+    border-radius: 9999px;
+    align-items: center;
+  }
+
+</style>
