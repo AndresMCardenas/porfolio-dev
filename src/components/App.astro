@@ -21,32 +21,30 @@ const i18n = getI18n({currentLocale});
 
 ---
 
-<Layout
-  title={i18n.basics.titel}
-  description={i18n.basics.description1}
->
+<Layout title={i18n.basics.titel} description={i18n.basics.description1}>
   <main class="px-4">
     <SectionContainer id="contactame" class="py-44 pb-24">
       <h1
         class="text-white text-3xl md:text-4xl lg:text-5xl flex font-bold flex-row gap-x-4 pb-6 lg:pb-10"
       >
-        {i18n.basics.greeting} {i18n.basics.name}
-        <img 
+        {i18n.basics.greeting}
+        {i18n.basics.name}
+        <img
           class="rounded-full size-40"
-          src={i18n.basics.image} 
+          src={i18n.basics.image}
           alt="Andres Cardenas foto"
         />
       </h1>
       <h2 class="text-xl lg:text-2xl text-wrap max-w-[700px] text-white">
         <span>{i18n.basics.description1}</span>
         <span class="text-yellow-200/90 opacity-80">
-         {i18n.basics.description11}</span
+          {i18n.basics.description11}</span
         > {i18n.basics.description12}
       </h2>
 
       <nav class="flex gap-4 mt-8 flex-wrap text-white">
         <SocialPill
-          href="https://www.linkedin.com/in/andres-mauricio-cardenas-sachez-96102725/"
+          href="https://www.linkedin.com/in/andres-mauricio-cardenas-sanchez-96102725/"
         >
           <LinkedInIcon class="size-4 md:size-6" />
           LinkedIn
@@ -63,7 +61,7 @@ const i18n = getI18n({currentLocale});
         </SocialPill>
 
         <SocialPill
-          href="https://drive.google.com/file/d/10pvVLb1gbpMetZjijYMwW3g3GhijVD83/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1RlSB5sL1_ePD0ApeqqNtNRvHWQo8wU3B/view?usp=sharing"
         >
           <MailIconIcon class="size-4 md:size-6" />
           {i18n.basics.CV}
@@ -72,7 +70,9 @@ const i18n = getI18n({currentLocale});
     </SectionContainer>
 
     <SectionContainer id="experiencia">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white"
+      >
         <Brifcase class="size-7" />
         {i18n.basics.experience}
       </h2>
@@ -80,7 +80,9 @@ const i18n = getI18n({currentLocale});
     </SectionContainer>
 
     <SectionContainer id="proyectos">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white"
+      >
         <Proyect class="size-7" />
         {i18n.basics.project}
       </h2>
@@ -88,7 +90,9 @@ const i18n = getI18n({currentLocale});
     </SectionContainer>
 
     <SectionContainer id="sobre-mi">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white"
+      >
         <ProfileCheck class="size-7" />
         {i18n.basics.aboutMe}
       </h2>
@@ -96,7 +100,9 @@ const i18n = getI18n({currentLocale});
     </SectionContainer>
 
     <SectionContainer id="education">
-      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white">
+      <h2
+        class="text-3xl font-semibold mb-6 flex gap-x-3 items-center text-white"
+      >
         <School class="size-7" />
         {i18n.basics.education}
       </h2>
