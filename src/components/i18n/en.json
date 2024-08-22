@@ -120,8 +120,8 @@
   "projects":{
     "title1": "Consecutive Number Generator",
     "description1": "Development of a web application aimed at efficiently managing the consecutive numbers of official communications in our company. The application features a robust access control system through Active Directory, thus ensuring the security and privacy of information, all deployed in Docker.",
-    "github1": "https://github.com/AsambleaCoopUN/Generador-De-Consecutivos",
-    "image1": "https://lh3.googleusercontent.com/pw/ABLVV86k7dw0glb0EP9L8FAhkfEA2uE95MCNH6ermcS_JmKPUSelWdUV8rsJpx_KViuaAZ2NlpqQttuLVfTpCkWGFbarfvWAUHQNrnkZdKeJXOT8_AJrNA=w2400",
+    "github1": "https://github.com/AndresMCardenas?tab=repositories",
+    "image1": "https://lh3.googleusercontent.com/pw/AP1GczN8J9Ic-8_oRZAfesaAZjeWvOG2bIkwz3_GRW84kauOFV6fLkDOuykdmsKR5zkJXolqASXinlrHnW84Rel7SxjXtFZN5VdCfz3FvOwrcWvX7vkXxXEQn39mJD-uc3Olaj8H80xNui1n2tm5qnpj7oY=w1229-h922-s-no?authuser=0",
     "link1": "",
 
     "title2": "Minimalist Portfolio",
