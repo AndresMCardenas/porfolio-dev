@@ -20,6 +20,9 @@ dependencies:
   astro:
     specifier: ^4.2.4
     version: 4.3.5(typescript@5.3.3)
+  porfolio-dev:
+    specifier: 'file:'
+    version: 'file:'
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
@@ -4163,4 +4166,29 @@ packages:
 
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
+    dev: false
+
+  'file:':
+    resolution: {directory: '', type: directory}
+    name: porfolio-dev
+    dependencies:
+      '@astrojs/check': 0.4.1(typescript@5.3.3)
+      '@astrojs/tailwind': 5.1.0(astro@4.3.5)(tailwindcss@3.4.1)
+      '@fontsource-variable/onest': 5.0.2
+      '@fontsource/onest': 5.0.2
+      astro: 4.3.5(typescript@5.3.3)
+      tailwindcss: 3.4.1
+      typescript: 5.3.3
+    transitivePeerDependencies:
+      - '@types/node'
+      - less
+      - lightningcss
+      - prettier
+      - prettier-plugin-astro
+      - sass
+      - stylus
+      - sugarss
+      - supports-color
+      - terser
+      - ts-node
     dev: false
