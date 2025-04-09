@@ -118,6 +118,12 @@
       ]
   },
   "projects": {
+    "title3": "Proyectos Frelance",
+    "description3": "Desarrollo e implementación de cursos en la plataforma Moodle, con un enfoque en la personalización y optimización de contenidos según las necesidades del usuario. Este proyecto incluye la modificación y administración de los cursos, así como la supervisión de la accesibilidad web para garantizar que el entorno sea inclusivo para todos los participantes. La solución se implementó utilizando Docker para el despliegue eficiente del sistema y KVM para la gestión de máquinas virtuales, asegurando un entorno escalable y de alto rendimiento para la plataforma educativa.",
+    "github3": "",
+    "image3": "",
+    "link3": "",
+    
     "title1": "Generador de Consecutivos",
     "description1": "Desarrollo de una aplicación web destinada a gestionar de manera eficiente los consecutivos de las comunicaciones oficiales en nuestra empresa. La aplicación cuenta con un sólido sistema de control de acceso a través del Directorio Activo, garantizando así la seguridad y privacidad de la información. todo desplegado en Docker",
     "github1": "https://github.com/AndresMCardenas?tab=repositories",    
@@ -128,13 +134,7 @@
     "description2": "Portafolio minimalista desarrollado con Astro, Tailwind y TypeScript, diseñado para ser extremadamente sencillo y listo para imprimir. Ofrece una presentación limpia y profesional de los proyectos, siguiendo las bases del tutorial de Midudev y adecuándolo al perfil de una psicóloga de selección",
     "github2": "https://github.com/AndresMCardenas/porfolio-edna-abril",
     "image2": "https://lh3.googleusercontent.com/pw/AP1GczPZCLH2zlE3L2zpOU1SAW9meYJsr9y5Yjfl6Urk5quY8P7FYu_Wiqi2TJ4ygYFXnmEgU9PFC4Ews0POXgbd1GJtlRx1mkP1ZtHPwyYYPjtVH8IztEKVUUEJhg7li-OXuoEJB8PkO0cQ0oUeCuLhvx8=w960-h720-s-no?authuser=0",
-    "link2": "https://edna-abril-cv.vercel.app/",
-
-    "title3": "",
-    "description3": "",
-    "github3": "",
-    "image3": "",
-    "link3": ""
+    "link2": "https://edna-abril-cv.vercel.app/"
   },
   "skills": [
     {
