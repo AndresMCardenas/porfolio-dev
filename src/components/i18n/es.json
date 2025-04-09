@@ -60,25 +60,26 @@
   },
   "work": {
       "name1": "HCX Sas",
-      "position1": "Analista de Tecnologia",
-      "url1": "https://www.hcx.com.co/",
-      "startDate1": "Abril 2024",
-      "endDate1": "Diciembre 2024",
-      "summary1": "Profesional con experiencia en administración de sistemas y soporte técnico en entornos tecnológicos complejos. Responsable de la gestión y configuración de herramientas como CRM Odoo, Oracle Reports 6i y TOAD para extracción y análisis de datos, así como de la administración de privilegios y configuración de reglas de negocio en sistemas operativos como Linux. Amplia experiencia en la administración de infraestructura tecnológica, incluyendo servidores físicos y virtuales, redes VPN, firewalls, y validación de sistemas de respaldo y seguridad (Gmail, Sophos). Habilidades comprobadas en automatización de procesos, ejecución de scripts, generación de reportes, y resolución de incidencias técnicas utilizando plataformas como GLPI. Experto en configuración de módulos y parametrización de sistemas para procesos contables, nómina y gestión documental. Enfoque en garantizar la continuidad operativa mediante la supervisión y optimización de servidores, conexiones remotas, redes locales, impresoras y equipos de usuario final.",
+      "position1": "Auxiliar TI",
+      "url1": "https://www.activace.com.co/",
+      "startDate1": "Enero 2025",
+      "endDate1": "Actualmente",
+      "summary1": "Soy un profesional en tecnología con experiencia en administración de sistemas, gestión de infraestructura tecnológica y soporte técnico. Mis responsabilidades incluyen la gestión y configuración de sistemas y plataformas como CRM (Odoo) y herramientas como GLPI, CURUBA y BARUJ, optimizando procesos internos y garantizando la operatividad de usuarios. Además, administro la infraestructura tecnológica mediante la supervisión de servidores virtualizados con Proxmox, redes corporativas, seguridad de datos (copias de seguridad, VPN y firewalls) y soporte a hardware en múltiples ubicaciones. Cuento también con experiencia en la automatización y análisis de datos, generación de reportes, configuración de reglas de negocio y ejecución de procesos contables y financieros en herramientas especializadas. Además, gestiono el soporte técnico, la resolución de incidencias y la administración de usuarios, privilegios y accesos, solucionando errores en aplicaciones y plataformas empresariales. Finalmente, administro el correo corporativo y la seguridad, incluyendo la configuración de herramientas de conexión VPN y el restablecimiento de contraseñas en cuentas Gmail.",
 
-      "name2": "CooprofesoresUn",
-      "position2": "Analista de sistemas",
-      "url2": "",
-      "startDate2": "Junio 2022",
-      "endDate2": "Abril 2024",
-      "summary2": "Me he especializado en el desarrollo de aplicaciones web, centrándome en la creación de soluciones innovadoras. Anteriormente, mi experiencia abarcaba el soporte multimedial de primer y segundo nivel, con un enfoque específico en la administración y gestión de la mesa de servicio. Sin embargo, actualmente mi enfoque se centra en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. También tengo experiencia en el despliegue eficiente mediante contenedores Docker.",
-    
-      "name3": "Inversiones Lejis S.A.S",
-      "position3": "Supervisor logístico y comercial",
+      "name2": "HCX Sas",
+      "position2": "Analista de Tecnologia",
+      "url2": "https://www.hcx.com.co/",
+      "startDate2": "Abril 2024",
+      "endDate2": "Diciembre 2024",
+      "summary2": "Profesional con experiencia en administración de sistemas y soporte técnico en entornos tecnológicos complejos. Responsable de la gestión y configuración de herramientas como CRM Odoo, Oracle Reports 6i y TOAD para extracción y análisis de datos, así como de la administración de privilegios y configuración de reglas de negocio en sistemas operativos como Linux. Amplia experiencia en la administración de infraestructura tecnológica, incluyendo servidores físicos y virtuales, redes VPN, firewalls, y validación de sistemas de respaldo y seguridad (Gmail, Sophos). Habilidades comprobadas en automatización de procesos, ejecución de scripts, generación de reportes, y resolución de incidencias técnicas utilizando plataformas como GLPI. Experto en configuración de módulos y parametrización de sistemas para procesos contables, nómina y gestión documental. Enfoque en garantizar la continuidad operativa mediante la supervisión y optimización de servidores, conexiones remotas, redes locales, impresoras y equipos de usuario final.",
+
+      "name3": "CooprofesoresUn",
+      "position3": "Analista de sistemas",
       "url3": "",
-      "startDate3": "Abril 2021",
-      "endDate3": "Junio 2022",
-      "summary3": "Durante mi experiencia laboral, gestioné con éxito el control de inventario y la rotación de productos, analizando variaciones para identificar causas y desarrollar planes de acción. Realicé eficientemente la toma de inventarios de manera semanal y mensual, optimizando procesos para garantizar precisión y cumplimiento de objetivos. Como responsable de la logística, coordiné pedidos, recepción, almacenamiento, preservación, rotación, exhibición y despachos, centrado en asegurar la satisfacción del cliente y alcanzar metas de ventas. Además, supervisé la operación, manteniendo equipos e infraestructura, priorizando la limpieza y seguridad diaria con reportes inmediatos de incidentes."
+      "startDate3": "Junio 2022",
+      "endDate3": "Abril 2024",
+      "summary3": "Me he especializado en el desarrollo de aplicaciones web, centrándome en la creación de soluciones innovadoras. Anteriormente, mi experiencia abarcaba el soporte multimedial de primer y segundo nivel, con un enfoque específico en la administración y gestión de la mesa de servicio. Sin embargo, actualmente mi enfoque se centra en el apoyo al desarrollo de aplicaciones web propias, utilizando herramientas como HTML, CSS, JS y NodeJS. También tengo experiencia en el despliegue eficiente mediante contenedores Docker.",
+    
   },
   "education": {
       "institution1": "Servicio Nacional de Aprendizaje SENA",
