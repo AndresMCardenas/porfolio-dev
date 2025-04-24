@@ -122,7 +122,7 @@
     "title1": "Proyectos Frelance",
     "description1": "Desarrollo e implementación de cursos en la plataforma Moodle, con un enfoque en la personalización y optimización de contenidos según las necesidades del usuario. Este proyecto incluye la modificación y administración de los cursos, así como la supervisión de la accesibilidad web para garantizar que el entorno sea inclusivo para todos los participantes. La solución se implementó utilizando Docker para el despliegue eficiente del sistema y KVM para la gestión de máquinas virtuales, asegurando un entorno escalable y de alto rendimiento para la plataforma educativa.",
     "github1": "",
-    "image1": "",
+    "image1": "https://drive.google.com/file/d/1OEfAGGRVJUnINEPDieAWeK5GVNRlNs02/view?usp=sharing",
     "link1": "",
     
     "title2": "Generador de Consecutivos",
