@@ -9,9 +9,9 @@
   },
   "basics": {
     "titel": "Andres Cardenas Porfolio de Desarrollo y Programador",
-    "description1": "Apasionado por el aprendizaje continuo.",
-    "description11": "Soy un Desarrollador Web Junior y Analista de Sistemas.",
-    "description12": "De Bogotá, Colombia. Comprometido con la excelencia y la innovación en cada proyecto que emprendo",
+    "description1": "Entusiasta de la tecnología y la automatización.",
+    "description11": "Soy Analista de Sistemas, especializado en infraestructura tecnológica, soporte técnico y mejora continua.",
+    "description12": "Desde Bogotá, me apasiona resolver problemas complejos y transformar procesos mediante soluciones eficientes y escalables.",
     "description2": "Conoce mi porfolio y proyectos de desarrollo web y programación, conoce mi experiencia y habilidades.",
     "greeting": "Hola, soy",
     "name": "Andres Mauricio Cardenas Sanchez",
@@ -25,11 +25,10 @@
     "email": "andrescar18@gmail.com",
     "url": "null",
     "greetingAbout": "Me llamo Andres Cardenas ",
-    "summary1": "Soy un profesional apasionado de la programación y la tecnología, con experiencia destacada en soporte multimedial, administración de mesas de servicio, desarrollo web y gestión logística. Mi trayectoria incluye un dominio sólido de herramientas como Visual Studio Code, Node.js, JavaScript, Docker y Linux. Además, estoy inmerso en el estudio y la aplicación práctica de lenguajes como JavaScrip y Python",
-    "summary2": "Mi compromiso con la mejora continua me impulsa a mantenerme actualizado en un entorno tecnológico en constante evolución. Estoy dedicado a expandir mis habilidades de programación y explorar nuevas tecnologías que impulsen la innovación y la eficiencia en cada proyecto en el que participo.",
-
-    "summary3": "Explora mi Porfolio para descubrir más sobre mis proyectos, habilidades y cómo puedo contribuir al éxito de tu equipo o proyecto.",
-    "summary4":"Además, estoy en proceso de mejorar mi nivel de inglés para mejorar mis capacidades de comunicación y colaboración en un entorno internacional.",
+    "summary1": "Soy un profesional apasionado por la tecnología, la automatización y la infraestructura TI, con experiencia destacada en soporte técnico, administración de sistemas, desarrollo web y gestión de plataformas empresariales. Tengo dominio en herramientas como Proxmox, Odoo, GLPI, Oracle Reports 6i, TOAD, y tecnologías como Docker, Node.js, JavaScript, HTML, CSS y Linux. También utilizo entornos como Visual Studio Code y Git para el desarrollo y la colaboración técnica.",
+    "summary2": "Mi compromiso con la mejora continua me impulsa a mantenerme actualizado en un entorno tecnológico en constante evolución. Estoy dedicado a fortalecer mis habilidades en automatización, análisis de datos y programación, explorando nuevas tecnologías que impulsen la innovación y la eficiencia en cada proyecto en el que participo.",
+    "summary3": "Me caracterizo por un enfoque proactivo, resolutivo y colaborativo. Disfruto trabajar en equipo, aportar ideas y aprender de otros profesionales. Mi prioridad es asegurar la continuidad operativa, optimizar procesos y ofrecer soluciones tecnológicas que generen impacto real. Siempre busco integrar lo técnico con una visión estratégica y orientada a resultados.",
+    "summary4":"Cuento con fluidez en inglés a nivel B2, lo que me permite comunicarme de manera efectiva en entornos técnicos y laborales. Actualmente, me encuentro en proceso de perfeccionamiento del idioma, con el objetivo de fortalecer mis habilidades de comunicación y ampliar mis oportunidades en equipos y proyectos internacionales.",
     "codeP":"Código del Portfolio",
     "thanks":" Gracias a:",
     "location": {
