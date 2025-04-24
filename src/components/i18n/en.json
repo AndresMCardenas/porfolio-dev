@@ -9,9 +9,9 @@
   },
   "basics": {
     "titel": "Andres Cardenas Portfolio de Desarrollo y Programador",
-    "description1": "Passionate about continuous learning.",
-    "description11": "I am a Junior Web Developer and Systems Analyst.",
-    "description12": "From Bogota, Colombia. Committed to excellence and innovation in every project I undertake",
+    "description1": "Technology and automation enthusiast.",
+    "description11": "I am a Systems Analyst specialized in IT infrastructure, technical support, and continuous improvement.",
+    "description12": "Based in Bogotá, Colombia. I am passionate about solving complex problems and transforming processes through efficient and scalable solutions",
     "description2":"Explore my portfolio and web development and programming projects, discover my experience and skills.",
     "greeting": "Hey, I'm",
     "name": "Andres Mauricio Cardenas Sanchez",
@@ -25,10 +25,10 @@
     "email": "andrescar18@gmail.com",
     "url": "null",
     "greetingAbout":"My name is Andres Cardenas ",
-    "summary1": "I am professional passionate about programming and technology, with outstanding experience in multimedia support, service desk management, web development and logistics management. My background includes a solid command of tools such as Visual Studio Code, Node.js, JavaScript, Docker and Linux. In addition, I am immersed in the study and practical application of languages such as JavaScrip and Python",
-    "summary2": "My commitment to continuous improvement drives me to stay updated in a constantly evolving technological environment. I am dedicated to expanding my programming skills and exploring new technologies that drive innovation and efficiency in every project I participate in.",
-    "summary3": "Explore my Portfolio to discover more about my projects, skills and how I can contribute to the success of your team or project.",
-    "summary4":"Furthermore, I am in the process of improving my English level to enhance my communication and collaboration skills in an international environment.",
+    "summary1": "I am a professional passionate about technology, automation, and IT infrastructure, with strong experience in technical support, systems administration, web development, and enterprise platform management. I am proficient with tools such as Proxmox, Odoo, GLPI, Oracle Reports 6i, and TOAD, as well as technologies like Docker, Node.js, JavaScript, HTML, CSS, and Linux. I also work with development environments like Visual Studio Code and Git for coding and collaboration.",
+    "summary2": "My commitment to continuous improvement drives me to stay up-to-date in an ever-evolving tech environment. I am dedicated to strengthening my skills in automation, data analysis, and programming, always exploring new technologies that foster innovation and efficiency in every project I work on.",
+    "summary3": "I am known for my proactive, problem-solving, and collaborative approach. I enjoy working in teams, contributing ideas, and learning from other professionals. My priority is to ensure operational continuity, optimize processes, and deliver technological solutions that generate real impact. I always aim to align technical solutions with a strategic, results-driven mindset.",
+    "summary4":"I have B2-level fluency in English, which allows me to communicate effectively in technical and professional settings. I am currently working on improving my language skills, aiming to enhance my communication abilities and expand my opportunities to work with international teams and projects.",
     "codeP": "Portfolio code",
     "thanks":" Thanks: ",
     "location": {
@@ -50,34 +50,34 @@
         "url": "https://github.com/AndresMCardenas"
       },
       {
-        "network": "Descargar CV",
+        "network": "Download CV",
         "username": "CV_Andres",
         "url": "https://drive.google.com/file/d/1cCXm1B9lz-435cLi4v8PB2HJN2l5MNlN/view?usp=drive_link"
       }
     ],
-    "badge": "Conoceme"
+    "badge": "know me"
   },
   "work": {
-      "name1": "HCX Sas",
-      "position1": "Systems Analyst",
-      "url1": "https://www.hcx.com.co/",
-      "startDate1": "April 2024",
-      "endDate1": "December 2024",
-      "summary1": "Professional with experience in systems administration and technical support in complex technological environments. Responsible for the management and configuration of tools such as CRM Odoo, Oracle Reports 6i, and TOAD for data extraction and analysis, as well as privilege administration and business rule configuration in operating systems like Linux. Extensive experience in managing IT infrastructure, including physical and virtual servers, VPN networks, firewalls, and validation of backup and security systems (Gmail, Sophos). Proven skills in process automation, script execution, report generation, and technical incident resolution using platforms like GLPI. Expert in module configuration and system parameterization for accounting, payroll, and document management processes. Focused on ensuring operational continuity by monitoring and optimizing servers, remote connections, local networks, printers, and end-user equipment.",
+      "name1": "Activace SAS",
+      "position1": "IT Assistant",
+      "url1": "https://www.activace.com.co/",
+      "startDate1": "January 2025",
+      "endDate1": "",
+      "summary1": "I am a technology professional with experience in systems administration, IT infrastructure management, and technical support. My responsibilities include managing and configuring systems and platforms such as CRM (Odoo) and tools like GLPI, CURUBA, and BARUJ, optimizing internal processes and ensuring user operation. Additionally, I manage IT infrastructure by supervising virtualized servers with Proxmox, corporate networks, data security (backups, VPNs, and firewalls), and hardware support across multiple locations. I also have experience in data automation and analysis, report generation, business rule configuration, and executing accounting and financial processes in specialized tools. Furthermore, I manage technical support, incident resolution, and the administration of users, privileges, and access, solving issues in applications and enterprise platforms. Finally, I manage corporate email and security, including configuring VPN connection tools and password recovery for Gmail accounts.",
       
-      "name2": "CooprofesoresUn",
+      "name2": "HCX Sas",
       "position2": "Systems Analyst",
-      "url2": "https://cooprofesoresun.coop/",
-      "startDate2": "July 2022",
-      "endDate2": "April 2024",
-      "summary2": "I am specializing in web application development, focusing on creating innovative solutions. Previously, my experience spanned first and second-level multimedia support, with a specific focus on service desk administration and management. However, my current emphasis lies in supporting the development of custom web applications, utilizing tools such as HTML, CSS, JS, and NodeJS. I also have experience in efficient deployment using Docker containers.",
+      "url2": "https://www.hcx.com.co/",
+      "startDate2": "April 2024",
+      "endDate2": "December 2024",
+      "summary2": "Professional with experience in systems administration and technical support in complex technological environments. Responsible for the management and configuration of tools such as CRM Odoo, Oracle Reports 6i, and TOAD for data extraction and analysis, as well as privilege administration and business rule configuration in operating systems like Linux. Extensive experience in managing IT infrastructure, including physical and virtual servers, VPN networks, firewalls, and validation of backup and security systems (Gmail, Sophos). Proven skills in process automation, script execution, report generation, and technical incident resolution using platforms like GLPI. Expert in module configuration and system parameterization for accounting, payroll, and document management processes. Focused on ensuring operational continuity by monitoring and optimizing servers, remote connections, local networks, printers, and end-user equipment.",
     
-      "name3": "Inversiones Lejis S.A.S",
-      "position3": "Logistics and Commercial Supervisor",
-      "url3": "",
-      "startDate3": "April 2021",
-      "endDate3": "June 2022",
-      "summary3": "Durin my work experience, I successfully managed inventory control and product rotation, analyzing variations to identify causes and develop action plans. I efficiently carried out weekly and monthly inventory counts, optimizing processes to ensure accuracy and goal achievement. As responsible for logistics, I coordinated orders, reception, storage, preservation, rotation, exhibition and dispatches, focused on ensuring customer satisfaction and achieving sales goals. In addition, I supervised the operation, maintaining equipment and infrastructure, prioritizing daily cleaning and safety with immediate incident reports."
+      "name3": "CooprofesoresUn",
+      "position3": "Systems Analyst",
+      "url3": "https://cooprofesoresun.coop/",
+      "startDate3": "July 2022",
+      "endDate3": "April 2024",
+      "summary3": "I am specializing in web application development, focusing on creating innovative solutions. Previously, my experience spanned first and second-level multimedia support, with a specific focus on service desk administration and management. However, my current emphasis lies in supporting the development of custom web applications, utilizing tools such as HTML, CSS, JS, and NodeJS. I also have experience in efficient deployment using Docker containers."
 
   },
   "education":{
@@ -118,23 +118,23 @@
       ]
     },
   "projects":{
-    "title1": "Consecutive Number Generator",
-    "description1": "Development of a web application aimed at efficiently managing the consecutive numbers of official communications in our company. The application features a robust access control system through Active Directory, thus ensuring the security and privacy of information, all deployed in Docker.",
-    "github1": "https://github.com/AndresMCardenas?tab=repositories",
-    "image1": "https://lh3.googleusercontent.com/pw/AP1GczN8J9Ic-8_oRZAfesaAZjeWvOG2bIkwz3_GRW84kauOFV6fLkDOuykdmsKR5zkJXolqASXinlrHnW84Rel7SxjXtFZN5VdCfz3FvOwrcWvX7vkXxXEQn39mJD-uc3Olaj8H80xNui1n2tm5qnpj7oY=w1229-h922-s-no?authuser=0",
+    "title1": "Freelance Projects",
+    "description1": "Development and implementation of courses on the Moodle platform, focusing on content customization and optimization according to user needs. This project includes the modification and management of courses, as well as overseeing web accessibility to ensure the environment is inclusive for all participants. The solution was implemented using Docker for efficient system deployment and KVM for virtual machine management, ensuring a scalable and high-performance environment for the educational platform.",
+    "github1": "",
+    "image1": "https://lh3.googleusercontent.com/d/1OEfAGGRVJUnINEPDieAWeK5GVNRlNs02=s720",
     "link1": "",
 
-    "title2": "Minimalist Portfolio",
-    "description2": "Minimalist portfolio developed with Astro, Tailwind, and TypeScript, designed to be extremely simple and print-ready. It offers a clean and professional presentation of projects, following the foundations of the Midudev tutorial and tailored to the profile of a selection psychologist.",
-    "github2": "https://github.com/AndresMCardenas/porfolio-edna-abril",
-    "image2": "https://lh3.googleusercontent.com/pw/AP1GczPZCLH2zlE3L2zpOU1SAW9meYJsr9y5Yjfl6Urk5quY8P7FYu_Wiqi2TJ4ygYFXnmEgU9PFC4Ews0POXgbd1GJtlRx1mkP1ZtHPwyYYPjtVH8IztEKVUUEJhg7li-OXuoEJB8PkO0cQ0oUeCuLhvx8=w960-h720-s-no?authuser=0",
-    "link2": "https://edna-abril-cv.vercel.app/",
+    "title2": "Consecutive Number Generator",
+    "description2": "Development of a web application aimed at efficiently managing the consecutive numbers of official communications in our company. The application features a robust access control system through Active Directory, thus ensuring the security and privacy of information, all deployed in Docker.",
+    "github2": "https://github.com/AndresMCardenas?tab=repositories",
+    "image2": "https://lh3.googleusercontent.com/pw/AP1GczN8J9Ic-8_oRZAfesaAZjeWvOG2bIkwz3_GRW84kauOFV6fLkDOuykdmsKR5zkJXolqASXinlrHnW84Rel7SxjXtFZN5VdCfz3FvOwrcWvX7vkXxXEQn39mJD-uc3Olaj8H80xNui1n2tm5qnpj7oY=w1229-h922-s-no?authuser=0",
+    "link2": "",
 
-    "title3": "",
-    "description3": "",
-    "github3": "",
-    "image3": "",
-    "link3": ""
+    "title3": "Minimalist Portfolio",
+    "description3": "Minimalist portfolio developed with Astro, Tailwind, and TypeScript, designed to be extremely simple and print-ready. It offers a clean and professional presentation of projects, following the foundations of the Midudev tutorial and tailored to the profile of a selection psychologist.",
+    "github3": "https://github.com/AndresMCardenas/porfolio-edna-abril",
+    "image3": "https://lh3.googleusercontent.com/pw/AP1GczPZCLH2zlE3L2zpOU1SAW9meYJsr9y5Yjfl6Urk5quY8P7FYu_Wiqi2TJ4ygYFXnmEgU9PFC4Ews0POXgbd1GJtlRx1mkP1ZtHPwyYYPjtVH8IztEKVUUEJhg7li-OXuoEJB8PkO0cQ0oUeCuLhvx8=w960-h720-s-no?authuser=0",
+    "link3": "https://edna-abril-cv.vercel.app/"
   },  
   "skills": [
     {
