@@ -11,5 +11,13 @@ export default defineConfig({
     routing: {
       prefixDefaultLocale: false,
     }
+  },
+  vite: {
+    ssr: {
+      noExternal: [
+        '@fontsource-variable/onest',
+        '@fontsource/onest'
+      ]
+    }
   }
 });
