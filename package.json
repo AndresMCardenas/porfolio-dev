@@ -14,7 +14,7 @@
     "@astrojs/tailwind": "6.0.2",
     "@fontsource-variable/onest": "^5.0.2",
     "@fontsource/onest": "^5.0.2",
-    "astro": "5.18.1",
+    "astro": "6.1.6",
     "porfolio-dev": "file:",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.3.3"
